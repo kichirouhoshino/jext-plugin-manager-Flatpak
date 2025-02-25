@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
     <id>io.github.spartacus04.jext-plugin-manager</id>
-    <name>Jext Plugin Manage</name>
+    <name>Jext Plugin Manager</name>
     <developer id="io.github.spartacus04">
         <name>Andrea Bonari</name>
     </developer>
