@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>io.github.spartacus04.jext-plugin-manager</id>
+    <name>Shijima-Qt</name>
+    <developer id="io.github.spartacus04">
+        <name>Andrea Bonari</name>
+    </developer>
+    <summary>Desktop App for Jext Plugin Manager</summary>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+    <url type="homepage">https://spartacus04.github.io/jext-reborn/</url>
+    <content_rating type="oars-1.1" />
+    <recommends>
+        <control>keyboard</control>
+        <control>pointing</control>
+        <control>touch</control>
+    </recommends>
+    <categories>
+        <category>Utility</category>
+    </categories>
+    <launchable type="desktop-id">io.github.spartacus04.jext-plugin-manager.desktop</launchable>
+
+    <description>
+        <p>By downloading the desktop app you get access to some exclusive features such as:</p>
+        <ul>
+            <li>Faster generation speed</li>
+            <li>Direct download from Youtube/Soundcloud</li>
+            <li>Remote disc/configuration management</li>
+            <li>Bulk importing</li>
+            <li>Community disc packs</li>
+            <li>Exports history</li>
+        </ul>
+    </description>
+
+    <releases>
+        <release version="2.0.0" date="2025-02-07">
+            <description></description>
+        </release>
+    </releases>
+</component>

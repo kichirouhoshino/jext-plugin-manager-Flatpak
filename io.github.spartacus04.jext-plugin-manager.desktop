@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Jext Plugin Manager
+Comment=Desktop App for Jext Plugin Manager
+Exec=jext-companion
+Terminal=false
+Type=Application
+Icon=io.github.spartacus04.jext-plugin-manager
+Categories=Utility;
