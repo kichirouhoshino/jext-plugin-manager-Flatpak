@@ -14,7 +14,7 @@ modules:
   - name: jext-companion
     buildsystem: simple
     build-commands:
-      - ar x 'Jext Plugin Manager_2.0.0_amd64.deb'
+      - ar x 'Jext Plugin Manager_2.1.0_amd64.deb'
       - tar -xvf data.tar.gz
       - desktop-file-edit --set-icon=$FLATPAK_ID usr/share/applications/Jext\ Plugin\ Manager.desktop
       - mv usr/bin /app/bin
@@ -25,7 +25,7 @@ modules:
       - install -Dm644 $FLATPAK_ID.appdata.xml /app/share/appdata/$FLATPAK_ID.appdata.xml
     sources:
       - type: archive
-        url: https://nightly.link/spartacus04/jext-reborn/actions/runs/13203318987/jext-plugin-manager_2.0.0_amd64.deb.zip
-        sha256: 048961c390d9905b4109e9ac93cf034facb05dd0fecc7b621eba52bac5a16009
+        url: https://nightly.link/spartacus04/jext-reborn/actions/runs/13821553275/jext-plugin-manager_2.1.0_amd64.deb.zip
+        sha256: 02e51025251cfdfbd291ab72b6d142708842bf8113b03eba9a6246a48bf1a367
       - type: file
         path: io.github.spartacus04.jext-plugin-manager.appdata.xml

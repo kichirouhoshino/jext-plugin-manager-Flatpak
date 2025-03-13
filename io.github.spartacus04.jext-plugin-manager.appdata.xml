@@ -33,6 +33,9 @@
     </description>
 
     <releases>
+        <release version="2.1.0" date="2025-03-10">
+            <description></description>
+        </release>
         <release version="2.0.0" date="2025-02-07">
             <description></description>
         </release>
